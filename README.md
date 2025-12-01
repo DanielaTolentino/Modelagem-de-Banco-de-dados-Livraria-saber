@@ -121,4 +121,4 @@ WHERE nome = 'Fornecedor Fictício'; -- (Assumindo que este registro foi inserid
 -- 3. Remover um cliente específico (Restrição ON DELETE RESTRICT na tabela 'venda' impede a exclusão se houver vendas vinculadas)
 -- Para que funcione, seria necessário deletar as vendas do cliente primeiro.
 DELETE FROM cliente 
-WHERE id_cliente = 4;
+WHERE id_cliente = 4;.
